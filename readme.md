@@ -67,6 +67,9 @@ All Tests get discovered, but Test2 and Test3 are not run, without a given reaso
 
 Bonus: Visual Studio does not display the Skip reason at all
 
+Issue Link on xUnit: https://github.com/xunit/visualstudio.xunit/issues/164
+
+
 ## ReSharper 2019.2 with Visual Studio 2019 16.2
 
 ![Screenshot of Resharper Unit Test Session](./resharper-2019-2-with-vs2019-16-2.PNG)
@@ -79,6 +82,9 @@ Test2 and Test3 are not discovered and not run, they disappeared silently.
 
 Test2 and Test3 are not discovered and not run, they disappeared silently.
 
+Issue Link on dotnet cli: https://github.com/dotnet/cli/issues/12187
+Issue Link on xUnit: https://github.com/xunit/visualstudio.xunit/issues/164
+
 ## NCrunch 3.30 with Visual Studio 2019 16.2
 
 ![Screenshot of NCrunch Test Window](./ncrunch-3-30-with-vs2019-16-2.PNG)
@@ -87,3 +93,12 @@ It shows the exception, it would be nice if NCrunch would name the Type which ca
 to the finding of the problem, so in this scenario NCrunch behaves best.
 
 But the running behavior is also not really deterministic, if test are discovered earlier they might be run again. Otherweise no test in the assembly at all are run.
+
+Issue Link: https://forum.ncrunch.net/yaf_postsm13743_NCrunch-could-deliver-a-little-more-detail-with-exceptions-on-analysis.aspx
+
+## Xunit
+
+It would be nice if xUnit could deliver more detail when the discovery fails on a type or method, e.g. naming the type and test method (at least the type).
+
+Issue Link: https://github.com/xunit/visualstudio.xunit/issues/164
+
