@@ -67,6 +67,7 @@ All Tests get discovered, but Test2 and Test3 are not run, without a given reaso
 
 Bonus: Visual Studio does not display the Skip reason at all
 
+Issue Link on VSTest: https://github.com/microsoft/vstest/issues/2122
 Issue Link on xUnit: https://github.com/xunit/visualstudio.xunit/issues/165
 
 
@@ -75,6 +76,8 @@ Issue Link on xUnit: https://github.com/xunit/visualstudio.xunit/issues/165
 ![Screenshot of Resharper Unit Test Session](./resharper-2019-2-with-vs2019-16-2.PNG)
 
 Test2 and Test3 are not discovered and not run, they disappeared silently.
+
+Issue Link: https://youtrack.jetbrains.com/issue/RSRP-475867
 
 ## dotnet test sdk 2.2
 
