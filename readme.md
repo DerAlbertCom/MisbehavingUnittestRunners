@@ -67,7 +67,7 @@ All Tests get discovered, but Test2 and Test3 are not run, without a given reaso
 
 Bonus: Visual Studio does not display the Skip reason at all
 
-Issue Link on xUnit: https://github.com/xunit/visualstudio.xunit/issues/164
+Issue Link on xUnit: https://github.com/xunit/visualstudio.xunit/issues/165
 
 
 ## ReSharper 2019.2 with Visual Studio 2019 16.2
